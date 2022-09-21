@@ -29,7 +29,7 @@ const  { indonesia, english, spanyol} = require(`./language`)
   }
 
 // setting 
-global.autoread = false // auto read message
+global.autoread = true // auto read message
 global.autobio = true 
 global.userRegister = false 
 global.autoblok212 = false //ubah jadi true biar nmr 212 di blok sama bot
@@ -43,8 +43,8 @@ global.language = indonesia  //change indonesia to english if you don't understa
 // Other
 // Other
 global.botname = "Sabidz-Bot" //namabot kalian
-global.ownername= "Sabidz×" //nama kalian
-global.myweb ="https://api.zeeoneofc.xyz" //bebas asal jan hapus
+global.ownername= "Sabidz" //nama kalian
+global.myweb = "https://api.zeeoneofc.xyz" //bebas asal jan hapus
 global.youtube = "https://youtube.com/" //bebas asal jan hapus
 global.myweb2 = "https://syaiful-osd.blogspot.com" //bebas
 global.email = "sabidz2704@gmail.com" //bebas
@@ -58,13 +58,13 @@ global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder i
 global.donasi = "./image/donasi.jpg" // foto donasi di folder image
 global.background_welcome="https://telegra.ph/file/90a931648de597820bc08.jpg" // maks size 30kb, agar welcome image nya tdk delay
 global.thumbGif = 'https://telegra.ph/file/e90bef3779d3c5812a5d1.mp4'
-global.packname = '© Sabidz-Botོ' //sticker wm ubah
+global.packname = 'Sabidz-Bot' //sticker wm ubah
 global.author = 'Di Buat Oleh Sabidz' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 global.typemenu = 'document'
 global.multiplier = 69
 global.limitawal = {
-    premium: "10000",
+    premium: "1000000000",
     free: 100
 }
 
