@@ -3,14 +3,30 @@ const chalk = require('chalk')
 const  { indonesia, english, spanyol} = require(`./language`)
 
 // Website Api (jgn di ganti tomlol)
-global.APIs = {
-	alfa: 'https://api.zeeoneofc.xyz', //apabila link api eror, segera laporkan ke owner
-}
-
-// Free apikey (Apikey expired silahkan login terus ganti V12 dgn apikey lu)
-global.APIKeys = {
-	'https://api.zeeoneofc.xyz': 'V12',  // 👉 login https://api.zeeoneofc.xyz to get apikey || https://api-alphabot.herokuapp.com
-}
+ global.APIs = { 
+    bx: 'https://bx-hunter.herokuapp.com',
+    dhnjing: 'https://dhnjing.xyz',
+    hardianto: 'https://hardianto-chan.herokuapp.com',
+    jonaz: 'https://jonaz-api-v2.herokuapp.com',
+    neoxr: 'https://neoxr-api.herokuapp.com',
+    nrtm: 'https://nurutomo.herokuapp.com',
+    pencarikode: 'https://pencarikode.xyz',
+    xteam: 'https://api.xteam.xyz',
+    zahir: 'https://zahirr-web.herokuapp.com',
+    zekais: 'http://zekais-api.herokuapp.com',
+    zeks: 'https://api.zeks.xyz',
+    alfa: 'https://api.zeeoneofc.xyz',
+  }
+  global.APIKeys = { 
+    'https://bx-hunter.herokuapp.com': 'Ikyy69',
+    'https://hardianto-chan.herokuapp.com': 'hardianto',
+    'https://neoxr-api.herokuapp.com': 'yntkts',
+    'https://pencarikode.xyz': 'pais',
+    'https://api.xteam.xyz': 'apikeymu',
+    'https://zahirr-web.herokuapp.com': 'zahirgans',
+    'https://api.zeks.xyz': 'apivinz',
+    'https://api.zeeoneofc.xyz': 'V12',
+  }
 
 // setting 
 global.autoread = false // auto read message
